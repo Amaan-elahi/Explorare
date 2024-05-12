@@ -1,0 +1,138 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;}
+
+/* Basic styling for header */
+header {
+    background-color: #ffffff;
+    color: #1f2120;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #1f2120;
+    text-decoration: none;
+}
+nav ul li #sign{
+    padding: 10px;
+    color: #fff;
+    border-radius: 40px;
+    background-color: #23CE6B;
+}
+
+/* Basic styling for sections */
+section {
+    padding: 50px 0;
+}
+#home{
+    padding: 50px 0;
+    background-image: url(images/trek.jpg);
+    background-size: cover;
+    height: 630px;  
+}
+#home .container{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+#home .container div{
+    margin-left: auto;
+    text-align: right;
+    width: 50%;
+}
+#home h2{
+    font-size: 50px;
+}
+#destinations .container{
+    width: 90%;
+    text-align: left;
+}
+#destinations .container div{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+#destinations .container div div{
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+#destinations .container div div img{
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+}
+#destinations .container #btn{
+   width: 100%;
+}
+#destinations .container #btn button{
+    margin-right: 0;
+    margin-left: auto;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#destinations .container #btn button:active{
+    border-style: outset;
+}
+#destinations .container h2{
+    font-size: 25px;
+}
+#destinations .container{
+    width: 90%;
+    text-align: left;
+}
+#chatbox{
+    padding: 10px;
+}
+#bot{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 10px;
+}
+#bot div{
+    display: flex;
+}
+#bot #ques{
+    border: 1px solid #aaa;
+    width: 100%;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+/* Basic styling for footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
