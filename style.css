@@ -48,7 +48,7 @@ section {
 }
 #home{
     padding: 50px 0;
-    background-image: url(images/trek.jpg);
+    background-image: url(trek.jpg);
     background-size: cover;
     height: 630px;  
 }
