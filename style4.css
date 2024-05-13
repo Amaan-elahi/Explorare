@@ -1,0 +1,150 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;}
+
+/* Basic styling for header */
+header {
+    background-color: #ffffff;
+    color: #1f2120;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #1f2120;
+    text-decoration: none;
+}
+nav ul li #sign{
+    padding: 10px;
+    color: #fff;
+    border-radius: 40px;
+    background-color: #22d86e;
+}
+
+/* Basic styling for sections */
+section {
+    padding: 50px 0;
+}
+#home{
+    padding: 50px 0;
+    background-image: url(images/paris.jpg);
+    background-size: cover;
+    height: 500px;  
+}
+#home .container{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+#home .container div{
+    margin-left: auto;
+    text-align: left;
+    width: 100%;
+}
+#info{
+    margin-left: 30px;
+    text-align: left;
+    width: 90%;
+}
+#info h2{
+    font-size: 50px;
+}
+#info p{
+    color: #1f2120;
+    font-size: 30px;
+}
+#home .container div{
+    font-size: 30px;
+}
+#visit .container{
+    width: 90%;
+    text-align: left;
+}
+#visit .container div{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+#visit .container div div{
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+#visit .container div div img{
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+}
+#visit .container #btn{
+   width: 100%;
+}
+#visit .container #btn button{
+    margin-right: 0;
+    margin-left: auto;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#visit .container #btn button:active{
+    border-style: outset;
+}
+#visit .container h2{
+    font-size: 25px;
+}
+#visit .container{
+    width: 90%;
+    text-align: left;
+}
+#chatbox{
+    padding: 10px;
+}
+#bot{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 10px;
+}
+#bot div{
+    display: flex;
+}
+#bot #ques{
+    border: 1px solid #aaa;
+    width: 100%;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+/* Basic styling for footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
