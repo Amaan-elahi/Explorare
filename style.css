@@ -48,7 +48,7 @@ section {
 }
 #home{
     padding: 50px 0;
-    background-image: url(trek.jpg);
+    background-image: url(images/trek.jpg);
     background-size: cover;
     height: 630px;  
 }
@@ -62,9 +62,6 @@ section {
     margin-left: auto;
     text-align: right;
     width: 50%;
-}
-#home h2{
-    font-size: 50px;
 }
 #destinations .container{
     width: 90%;
@@ -86,6 +83,10 @@ section {
     width: 400px;
     height: 250px;
     border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
+#destinations .container div div img:hover{
+    border-radius: 30px;
 }
 #destinations .container #btn{
    width: 100%;
